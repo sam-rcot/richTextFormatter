@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rich Text</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="textContainers">
+        <div id="editor" contenteditable="true"></div>
+        <div id="parsedText" contenteditable="true"></div>
+        <details>
+            <summary>HTML</summary>
+            <p id="html"></p>
+        </details>
+    </div>
+    <div class="buttonContainer">
+        <button type="button" id="format" class="button">Format</button>
+    </div>
+    <script type="module" src="./out/index.js"></script>
+  </body>
+</html>
